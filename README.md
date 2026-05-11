@@ -1,5 +1,6 @@
 # AWF
 
+```text
 RWKV4Rec/
 ├── README.md
 ├── main.py
@@ -22,3 +23,4 @@ RWKV4Rec/
 │   └── RWKV4Rec.py
 ├── requirements.txt
 └── utils.py
+```
