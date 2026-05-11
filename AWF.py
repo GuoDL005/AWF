@@ -1,10 +1,11 @@
+# The complete code will be released after the journal accepts the article！！！！！
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from typing import Tuple
 
 class ChannelAttention(nn.Module):
-    """ 轻量级通道注意力模块 """
     def __init__(self, channels: int, reduction: int = 16):
         super().__init__()
         hidden_dim = max(channels // reduction, 4)
@@ -21,7 +22,6 @@ class ChannelAttention(nn.Module):
         return x * weights
 
 class SpatialAttention(nn.Module):
-    """ 轻量级空间注意力模块 """
     def __init__(self, kernel_size: int = 7):
         super().__init__()
         assert kernel_size % 2 == 1, 
