@@ -18,3 +18,7 @@ AWF/
 ├── README.md
 └── requirements.txt
 ```
+```text
+model文件
+链接: https://pan.baidu.com/s/1g7nEiZylKj9FVviO7kMtsg?pwd=cxhq 提取码: cxhq 
+```
